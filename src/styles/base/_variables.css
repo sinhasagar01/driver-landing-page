@@ -1,0 +1,18 @@
+
+:root {
+	--body-font: "Montserrat", sans-serif;
+
+	--font-bold: 700;
+  --font-semi-bold: 500;
+
+  --white-color: #FFFFFF;
+  --grey-text-color: #7C7C7E;
+  --grey-border-color: #D6D6DE;
+  --input-bg-color: #F4F4F6;
+  --error-color: #E94B59;
+  --bg-color: #4450D5;
+  --link-color: #249E64;
+  --button-bg-color: #34D186;
+  --button-hover-color: #22CA51;
+  --selected-bg-color: #2C82FC;
+}

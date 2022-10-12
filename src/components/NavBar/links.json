@@ -1,0 +1,37 @@
+{
+    "links": [
+        {
+            "label": "Ride",
+            "href": "/ride"
+        },
+        {
+            "label": "Become a driver",
+            "href": "/become-a-driver"
+        },
+        {
+            "label": "Fleet",
+            "href": "/fleet"
+        },
+        {
+            "label": "Business",
+            "href": "/business"
+        },
+        {
+            "label": "Scooters",
+            "href": "/scooters"
+        },
+        {
+            "label": "Drive",
+            "href": "/drive"
+        },
+        {
+            "label": "Food",
+            "href": "/food"
+        },
+        {
+            "label": "Cities",
+            "href": "/cities"
+        }
+
+    ]
+}

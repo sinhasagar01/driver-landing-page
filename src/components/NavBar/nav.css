@@ -1,0 +1,80 @@
+@import "../../styles/global/style.css";
+@import "../../styles/base/_variables.css";
+
+.navbar {
+  padding: 0 !important;
+}
+
+.navbar-toggler {
+  border: 0 !important;
+  padding: 0 !important;
+}
+.navbar-toggler:focus {
+  box-shadow: none !important;
+}
+.mob-burger-menu .desk-burger-menu, .nav-link .btn-primary {
+  text-transform: initial;
+  width: 120px;
+  padding: 0;
+  font-size: 1em;
+  font-family: var(--body-font);
+}
+
+
+#responsive-navbar-nav {
+  padding-inline: 3rem 0px;
+}
+#responsive-navbar-nav .navbar-nav {
+  padding: 0.5rem;
+}
+#responsive-navbar-nav .navbar-nav .nav-link {
+  color: #60626C; 
+  font-size: 1em;
+  font-family: var(--body-font);
+}
+.mob-burger-menu.navbar-nav {
+  display: none;
+}
+
+@media screen and (max-width: 992px) {
+  .mob-burger-menu.navbar-nav {
+    display: flex;
+    flex: auto;
+    align-items: flex-end;
+    margin-right: 1em;
+  }
+  .desk-burger-menu.navbar-nav {
+    display: none;
+  }
+
+  #responsive-navbar-nav {
+    padding-inline: 1rem 0px;
+  }
+  .navbar-collapse {
+      position: fixed;
+      top: 76px;
+      z-index: 9;
+      left: 0;
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-bottom: 15px;
+      width: 100%;
+      height: calc(100% - 76px);
+      background-color: var(--white-color);
+  }
+
+  .navbar-collapse.collapsing {
+      left: -100%;
+      top: -76px;
+      transition: height left 200s ease;
+  }
+
+  .navbar-collapse.show {
+      left: 0;
+      transition: left 200ms ease-in-out;
+  }
+
+  .navbar-toggler.collapsed ~ .navbar-collapse {
+      transition: left 200ms ease-in-out;
+  }
+}
